@@ -34,7 +34,7 @@ function exerciseDog(dogName, dogBreed) {
     let newArray = []
     let i
     for (i = 0; i < routine.length; i++) {
-        newArray << (routine[i](dogName, dogBreed))
+        newArray.push((routine[i](dogName, dogBreed)))
     }
     return newArray
 }
